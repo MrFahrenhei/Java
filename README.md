@@ -25,10 +25,7 @@ This repository compiles all my studies until now (2022), starting with the very
 <p align="left">
   💼 IDE/Tools: <strong>
   
-  ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
-  
-  UND
-  
+  ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white) 
   ![Intellij](https://img.shields.io/badge/IntelliJ_IDEA-333333.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
   
   </strong>
