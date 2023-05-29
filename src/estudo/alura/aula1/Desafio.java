@@ -27,27 +27,24 @@ public class Desafio {
             System.out.println(menu);
             opcao = leitura.nextInt();
             switch (opcao) {
-                case 1:
-                    System.out.println("O saldo atual é "+saldo);
-                    break;
-                case 2:
+                case 1 -> System.out.println("O saldo atual é " + saldo);
+                case 2 -> {
                     System.out.println("Quanto deseja transferir?");
                     double valor2 = leitura.nextDouble();
-                    if(valor2 > saldo){
+                    if (valor2 > saldo) {
                         System.out.println("Não há saldo para realizar transferência");
-                    }else{
+                    } else {
                         saldo -= valor2;
-                        System.out.println("Novo saldo: "+saldo);
+                        System.out.println("Novo saldo: " + saldo);
                     }
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     System.out.println("Valor recebido: ");
                     double valor3 = leitura.nextDouble();
                     saldo += valor3;
-                    System.out.println("Novo saldo: "+saldo);
-                    break;
-                default:
-                    System.out.println("Opção invalida");
+                    System.out.println("Novo saldo: " + saldo);
+                }
+                default -> System.out.println("Opção invalida");
             }
         }
     }
